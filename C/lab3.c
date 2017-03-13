@@ -42,11 +42,13 @@ void input(int *k, int *l){
   printf("K: ");
   while (!scanf("%5[0-9]", ks)){
     printf("Ошибка! Повторите ввод: ");
+    clear_stdin();
   }
   clear_stdin();
   printf("L: ");
   while (!scanf("%5[0-9]", ls)){
     printf("Ошибка! Повторите ввод: ");
+    clear_stdin();
   }
   *k = atoi(ks);
   *l = atoi(ls);

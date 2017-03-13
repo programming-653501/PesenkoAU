@@ -50,6 +50,7 @@ void input(int *k, int *l){
     printf("Ошибка! Повторите ввод: ");
     clear_stdin();
   }
+  clear_stdin();
   *k = atoi(ks);
   *l = atoi(ls);
 }
